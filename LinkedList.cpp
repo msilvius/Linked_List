@@ -52,12 +52,13 @@ void LinkedList::PrintList()
 	    cout<< currentNode->Value << endl;
 	    currentNode = currentNode->Next;
 	}
+	cout << endl;
     }
 }
 
 void LinkedList::CheckForLoops()
 {
-    if(hasLoops(Head))
+    if(HasLoops(Head))
     {
 	cout << "There are loops.\n\n";
     }
@@ -67,7 +68,7 @@ void LinkedList::CheckForLoops()
     }
 }
 
-bool LinkedList::hasLoops(ListNode * myList)
+bool LinkedList::HasLoops(ListNode * myList)
 {
     if(Count < 2)
     {

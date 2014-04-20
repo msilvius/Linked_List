@@ -39,8 +39,6 @@ void Run()
 	    case '3':
 		ll.CheckForLoops();
 		break;
-	    //case 'q':
-	//	return 0;
 	    default:
 		break;
 	}

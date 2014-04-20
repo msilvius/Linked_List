@@ -6,7 +6,7 @@ class LinkedList
 	ListNode * Head;
 	int Count;
 	void NewNode(int value);
-	bool hasLoops(ListNode * myList);
+	bool HasLoops(ListNode * myList);
 
     public:
 	LinkedList();
